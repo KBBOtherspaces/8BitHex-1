@@ -2,12 +2,15 @@ let fft;
 let sound;
 let amplitude;
 let images = [];
-let imageNames = ["UFO 5.png", "UFO 4.png", "UFO 3.png", "UFO 2.png", "UFO 1.png", "blackhole1.png", "blackhole2.png", "blackhole3.png", "blackhole4.png", "blackhole5.png", "blackhole6.png", "blackhole7.png"];
+let imageNames =  "assets/UFO 5.png", "assets/UFO 4.png", "assets/UFO 3.png", "assets/UFO 2.png", "assets/UFO 1.png",
+  "assets/blackhole1.png", "assets/blackhole2.png", "assets/blackhole3.png", "assets/blackhole4.png",
+  "assets/blackhole5.png", "assets/blackhole6.png", "assets/blackhole7.png"
+
 
 let colors = ["#9ff5f1", "#acf2ef", "#ccdedd", "#9fabaa", "#5f6968", "#07ada0", "#43a39c", "#498783", "#5bc9c2", "#e6f2f1"];
 
 function preload() {
-  sound = loadSound('Ode to Joy 01 222.mp3');
+  sound = loadSound("assetts/Ode to Joy 01 222.mp3");
   
   for (let i = 0; i < imageNames.length; i++) {
     images.push(loadImage(imageNames[i]));
