@@ -1,0 +1,2 @@
+imageNames = ["UFO 5.png", "UFO 4.png", "UFO 3.png", "UFO 2.png", "UFO 1.png", "blackhole1.png", "blackhole2.png", "blackhole3.png", "blackhole4.png", "blackhole5.png", "blackhole6.png", "blackhole7.png"
+  sound = loadSound('Ode to Joy 01 222.mp3');
